@@ -1,0 +1,6 @@
+Sort the list.txt
+# Set parallel to number of CPU cores -1
+LC_ALL=C sort --parallel=31 -u filename.txt -o filename.sorted.txt
+
+Remove the leading spaces
+sed -i -e's/^\s*//' filename.txt
